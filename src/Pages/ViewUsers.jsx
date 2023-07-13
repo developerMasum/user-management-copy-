@@ -29,7 +29,10 @@ const ViewUsers = () => {
   // console.log(user);
 
   return (
-    <div className="pt-12">
+    <div className="my-container">
+        <h2 className="text-center text-xl text-emerald-600 font-semibold mt-5 mb-5">
+           User Details 
+          </h2>
       <div className="overflow-x-auto">
         <table className="table table-zebra w-full">
           {/* head */}

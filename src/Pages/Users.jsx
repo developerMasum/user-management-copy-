@@ -49,7 +49,7 @@ const Users = () => {
   };
 
   return (
-    <div className="w-full">
+    <div className=" my-container">
       <div className="text-center mt-5 mb-5 mx-auto">
         <Link to={"/add-user"}>
           {" "}
